@@ -1,5 +1,5 @@
 from random import randint
-m, n = 5, 5
+m, n = 10, 10
 
 Matrix = [[randint(-10, 10) for j in range(n)] for i in range(m)]
 for i in range(len(Matrix)):
